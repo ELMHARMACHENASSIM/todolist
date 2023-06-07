@@ -105,11 +105,14 @@ body .content .listat .list .btns button {
   background: none;
   border: none;
 }
+body .content .listat .list .btns button .green {
+  color: green;
+}
 body .content .listat .list .btns i {
   margin-right: 5px;
   font-size: 20px;
   cursor: pointer;
-  color: #4d4747;
+  color: red;
 }
 body .content .listat .list:first-child {
   margin-top: 0;

@@ -104,12 +104,15 @@ body {
             button{
                 background: none;
                 border: none;
+                .green{
+                  color: green;
+                }
             }
           i {
             margin-right: 5px;
             font-size: 20px;
             cursor: pointer;
-            color: #4d4747;
+            color: red;
           }
         }
       }
