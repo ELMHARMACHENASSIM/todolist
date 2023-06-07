@@ -1,0 +1,140 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(207, 207, 207);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body .title {
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+body .inputs {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+body .inputs .input {
+  width: 300px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #7c7c7c;
+  padding: 0 10px;
+}
+body .inputs .btnAdd {
+  margin-top: 15px;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #4d4747;
+  border: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .inputs .btnAdd i {
+  font-size: 20px;
+  margin-left: 15px;
+}
+body .inputs .notification {
+  margin-top: 20px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(235, 87, 87, 0.69);
+}
+body .inputs .notification .error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 15px;
+  color: rgb(255, 255, 255);
+}
+body .inputs .notification i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #4d4747;
+  width: 40px;
+  height: 100%;
+  cursor: pointer;
+}
+body .content {
+  padding-top: 60px;
+  width: 600px;
+  height: fit-content;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+body .content .selected {
+  width: 100px;
+  height: 40px;
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+  background-color: #4d4747;
+  color: #fff;
+}
+body .content .listat {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #7c7c7c;
+}
+body .content .listat .list {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  background-color: #fff;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .content .listat .list .btns button {
+  background: none;
+  border: none;
+}
+body .content .listat .list .btns i {
+  margin-right: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #4d4747;
+}
+body .content .listat .list:first-child {
+  margin-top: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=app.css.map */

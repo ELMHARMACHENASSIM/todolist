@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./public/css/app.css">
+    <title>To Do list</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1 class="title">to do list</h1>
+
+        <div class="inputs">
+            <!-- variables -->
+            <input type="text" placeholder="add something" class="input">
+            <button type="submit" class="btnAdd"> ADD
+                <i class="fa-solid fa-circle-plus"></i>
+            </button>
+            <div class="notification">
+                <!-- variables -->
+                <span class="error">the champ is empty please retry</span>
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+
+        <div class="content">
+
+            <select name="" id="selected" class="selected">
+                <option value="">All</option>
+                <option value="">Selected</option>
+                <option value="">Not Selected</option>
+            </select>
+            <ul class="listat">
+                <!-- variables -->
+                <li class="list">
+                    <h3> Hello World</h3>
+
+                    <div class="btns">
+                        <!-- variables -->
+                        <button class="selectItem"><i class="fa-solid fa-circle-check "></i></button>
+                        <button class="deletItem"><i class="fa-solid fa-trash-can "></i></button>
+                    </div>
+                </li>
+                <li class="list">
+                    <h3> Hello World</h3>
+                    <div class="btns">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <i class="fa-solid fa-trash-can"></i>
+                    </div>
+                </li>
+                <li class="list">
+                    <h3> Hello World</h3>
+                    <div class="btns">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <i class="fa-solid fa-trash-can"></i>
+                    </div>
+                </li>
+                <li class="list">
+                    <h3> Hello World</h3>
+                    <div class="btns">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <i class="fa-solid fa-trash-can"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <script src="./public/js/app.js"></script>
+</body>
+
+</html>
