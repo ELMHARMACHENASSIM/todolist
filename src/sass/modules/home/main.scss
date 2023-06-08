@@ -41,9 +41,7 @@ body {
     .notification {
       margin-top: 20px;
       height: 40px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+     display: none;
       background-color: rgba(235, 87, 87, 0.69);
       .error {
         display: flex;
@@ -64,13 +62,17 @@ body {
         cursor: pointer;
       }
     }
+    .dclose{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
   
   .content {
     padding-top: 60px;
     width: 600px;
     height: fit-content;
-
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -89,12 +91,12 @@ body {
       padding: 20px;
       width: 100%;
       height: 100%;
-      border: 1px solid #7c7c7c;
+     
       .list {
         padding-left: 20px;
         padding-right: 20px;
         margin-top: 10px;
-        background-color: #fff;
+        background-color: #9a9a9a;
         height: 50px;
         border-radius: 5px;
         display: flex;
@@ -104,18 +106,20 @@ body {
             button{
                 background: none;
                 border: none;
-                .green{
-                  color: green;
-                }
+              
             }
           i {
             margin-right: 5px;
             font-size: 20px;
             cursor: pointer;
-            color: red;
+            color: black;
           }
         }
+       
       }
+     .list.sele{
+      background-color: white ;
+     }
       .list:first-child {
         margin-top: 0;
       }
