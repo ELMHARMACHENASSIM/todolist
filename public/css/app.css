@@ -113,7 +113,7 @@ body .content .listat .list .btns i {
   cursor: pointer;
   color: black;
 }
-body .content .listat .list.sele {
+body .content .listat .list.val {
   background-color: white;
 }
 body .content .listat .list:first-child {
