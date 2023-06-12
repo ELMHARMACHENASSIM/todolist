@@ -78,7 +78,7 @@ body .content {
   justify-content: center;
   flex-direction: column;
 }
-body .content .selected {
+body .content .select {
   width: 100px;
   height: 40px;
   outline: none;
